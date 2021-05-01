@@ -6,6 +6,7 @@ Simple python script which monitors slots availability and triggeres notificatio
   - [Try Free trail on Exotel and signup](https://my.exotel.com/auth/register). Just after signup, make sure to misscall on given number as instructed to verify your number
   - make sure you have python3.5+ version installed
   - `pip3 install requests`
+  - `pip3 install pytz`
   - clone the code or download just `cowin_alert.py` file
   - `python3 cowin_alert.py {pincode} {days} {exotel_api_key} {exotel_api_token} {exotel_sid} {from_number} {to_number} {exotel_caller_id}`
 
