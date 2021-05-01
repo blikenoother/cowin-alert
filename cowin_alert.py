@@ -32,6 +32,7 @@ def _notify_exotel_call(api_key, api_token, sid, from_number, to_number, caller_
 	print(requests.post(url, data=data))
 
 def main():
+	print('{time} start'.format(time=now_asia.strftime("%d-%m-%Y %H:%M")))
 	args = sys.argv
 	pincode, days = str(int(sys.argv[1])), int(sys.argv[2])
 	center = _get_center(pincode, days)
